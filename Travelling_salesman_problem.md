@@ -19,7 +19,7 @@ y=xyvals[tour,2]))+ geom_point(size=ptSize,color="blue")+ geom_polygon(color="bl
 plotTour(tour)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](picture/tsp_plot1.png)<!-- -->
 
 The graph looks quite messy. It seems like there is a better path to
 minimize the total distance.
@@ -125,7 +125,7 @@ if(runif(1,0,1)<rho){
 plotTour(tour)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](picture/tsp_plot2.png)<!-- -->
 
 ``` r
 dist1
@@ -200,7 +200,7 @@ tour<-1:N
 plotTour(tour)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](picture/tsp_plot3.png)<!-- -->
 
 ``` r
 sig2<-1
@@ -262,7 +262,7 @@ if(runif(1,0,1)<rho){
 plotTour(tour)+geom_vline(xintercept = 0,color="red",size=2)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-5-2.png)<!-- -->
+![](picture/tsp_plot4.png)<!-- -->
 
 ``` r
 dist1
@@ -383,7 +383,7 @@ if(runif(1,0,1)<rho){
 plotTour(tour)+geom_vline(xintercept = 0,color="red",size=2)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](picture/tsp_plot5.png)<!-- -->
 
 ``` r
 dist1
@@ -460,7 +460,7 @@ tour<-1:N
 plotTour(tour)+geom_vline(xintercept=vertical_boarder1[1],color="red",size=2)+geom_vline(xintercept=vertical_boarder2[1],color="red",size=2)+geom_hline(yintercept=horizontal_boarder1[1],color="blue",size=2)+geom_hline(yintercept=horizontal_boarder2[1],color="blue",size=2)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](picture/tsp_plot6.png)<!-- -->
 
 ``` r
 sig2<-1
@@ -520,7 +520,7 @@ if(runif(1,0,1)<rho){
 plotTour(tour)+geom_vline(xintercept=vertical_boarder1[1],color="red",size=2)+geom_vline(xintercept=vertical_boarder2[1],color="red",size=2)+geom_hline(yintercept=horizontal_boarder1[1],color="blue",size=2)+geom_hline(yintercept=horizontal_boarder2[1],color="blue",size=2)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](picture/tsp_plot7.png)<!-- -->
 
 ``` r
 dist1
@@ -652,7 +652,7 @@ if(runif(1,0,1)<rho){
 plotTour(tour)+geom_vline(xintercept=vertical_boarder1[1],color="red",size=2)+geom_vline(xintercept=vertical_boarder2[1],color="red",size=2)+geom_hline(yintercept=horizontal_boarder1[1],color="blue",size=2)+geom_hline(yintercept=horizontal_boarder2[1],color="blue",size=2)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](picture/tsp_plot8.png)<!-- -->
 
 ``` r
 dist1
@@ -746,7 +746,7 @@ tour<-1:N
 plotTour(tour)+geom_polygon(data=xx.df,aes(x,y),fill=NA,color="blue",size=3)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](picture/tsp_plot9.png)<!-- -->
 
 ``` r
 sig2<-1
@@ -806,7 +806,7 @@ if(runif(1,0,1)<rho){
 plotTour(tour)+geom_polygon(data=xx.df,aes(x,y),fill=NA,color="blue",size=3)
 ```
 
-![](Travelling_salesman_problem_files/figure-gfm/unnamed-chunk-15-2.png)<!-- -->
+![](picture/tsp_plot10.png)<!-- -->
 
 ``` r
 dist1
