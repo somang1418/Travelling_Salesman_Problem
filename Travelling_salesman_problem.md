@@ -61,7 +61,7 @@ distTour(tour)
 
     ## [1] 1058.165
 
-\#\#\#Normal TSP
+## Normal TSP
 
 We are going to set up the number of city(N=100) and the number of
 agents(M=100000) to minimize the distance function. As the number of
@@ -136,7 +136,7 @@ dist1
 It looks much neater than before\! The annealing process minimizes the
 function so that it finds the shortest total distance(minimum cost).
 
-\#\#\#A single vertical boarder penalty
+## A single vertical boarder penalty
 
 I will make a boarder at 0(vertical way) and add the cost of 50 if
 agents cross the boarder.
@@ -191,8 +191,7 @@ distTour1(tour)
 After adding the penalty, the total distance is much bigger than the
 total distance from the last section.
 
-\#\#\#\#Simulation process(going to use the same condition as the last
-section)
+## Simulation process(going to use the same condition as the last section)
 
 ``` r
 xyvals<-matrix(runif(2*N,-10,10),nrow=N)
@@ -273,7 +272,7 @@ dist1
 Once we set the boarder, it crosses the boarder less than a case without
 the boarder.
 
-\#\#\#Bonus boarder
+## Bonus boarder
 
 We can think about another case that we will reward agents who cross the
 boarder. The boarder is still at 0(vertical way)
@@ -394,8 +393,7 @@ dist1
 The graph clearly shows that everyone wants to cross the boarder for the
 reward(money)\!
 
-\#\#\#horizontal/vertical border(3x3 of horizontal and vertical
-boundaries)
+## Horizontal/vertical border(3x3 of horizontal and vertical boundaries)
 
 ``` r
 vertical_boarder1=c(2,20)#borader line and cost(only x affected)
@@ -528,7 +526,7 @@ dist1
 
     ## [1] 665.5288
 
-\#\#\#Bonus for traveling in the vertical direction
+### Bonus for traveling in the vertical direction
 
 Now, we give a reward to agents who cross vertical boarders, not
 horizontal boarders. We give them a penalty if they cross horizontal
@@ -663,7 +661,7 @@ dist1
 We can clearly see that there are more paths that cross vertical
 boarders versus horizontal boarders\!
 
-\#\#\#An arbitrary polygon boarder
+## An arbitrary polygon boarder
 
 We can make an area, and if the points are insides of it or pass
 
